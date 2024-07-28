@@ -1,0 +1,66 @@
+  body {
+            /* Set the background image */
+            background-image: url('working.jpg');
+            
+            /* Ensure the background image covers the entire page */
+            background-size: cover;
+            
+            /* Center the background image */
+            background-position: center;
+            
+            /* Prevent the background image from repeating */
+            background-repeat: no-repeat;
+            
+            /* Ensure the background image covers the entire viewport */
+            min-height: 100vh;
+            
+            /* Optional: Add a fallback background color */
+            background-color: blue;
+            
+            /* Flexbox properties to center the container */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+        
+	
+.container {
+        /* Center the content within the container */
+        text-align: center;
+        
+        /* Set a background color for better visibility */
+        background-color: rgba(255, 255, 255, 0.8);
+        
+        /* Padding inside the container */
+        padding: 20px;
+        
+        /* Optional: rounded corners */
+        border-radius: 10px;
+        
+        /* Optional: shadow for a better visual effect */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+ .links a {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px 20px;
+        text-decoration: underline;
+        background-color: purple;
+        color: white;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+
+.links a:hover {
+        background-color: rgb(0, 128, 255);
+    }
+
+header h1, header h3 {
+        margin: 10px 0;
+    }
+
+ p {
+        margin: 10px 0;
+    }

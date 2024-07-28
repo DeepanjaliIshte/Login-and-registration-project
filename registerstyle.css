@@ -1,0 +1,93 @@
+
+ body {
+        /* Set the background image */
+        background-image: url('registerimg.jpg');
+        
+        /* Ensure the background image covers the entire page */
+        background-size: cover;
+        
+        /* Center the background image */
+        background-position: center;
+        
+        /* Prevent the background image from repeating */
+        background-repeat: no-repeat;
+        
+        /* Ensure the background image covers the entire viewport */
+        min-height: 100vh;
+        
+        /* Optional: Add a fallback background color */
+        background-color: blue;
+        
+        /* Flexbox properties to center the container */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+	
+.container {
+        /* Center the content within the container */
+        text-align: center;
+        
+        /* Set a background color for better visibility */
+        background-color: #ff8080(255, 255, 255, 0.8);
+        
+        /* Padding inside the container */
+        padding: 20px;
+        
+        /* rounded corners */
+        border-radius: 10px;
+        
+        /*  shadow for a better visual effect */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    color: #800080;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+    color: rgb(0, 0, 64);
+}
+
+input {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 7px;
+    cursor: pointer;
+    background-color: #ff8000;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+ 
+button:hover {
+    background-color: #8080ff;
+    transform: scale(1.05);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(128, 0, 0)    ;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff00ff;
+}
+	

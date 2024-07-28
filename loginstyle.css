@@ -1,0 +1,87 @@
+
+ body {
+        /* Set the background image */
+        background-image: url('work.jpg');
+        
+        /* Ensure the background image covers the entire page */
+        background-size: cover;
+        
+        /* Center the background image */
+        background-position: center;
+        
+        /* Prevent the background image from repeating */
+        background-repeat: no-repeat;
+        
+        /* Ensure the background image covers the entire viewport */
+        min-height: 100vh;
+        
+        /* Optional: Add a fallback background color */
+        background-color: blue;
+        
+        /* Flexbox properties to center the container */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+	
+.container {
+        text-align: center;
+        
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        
+        border-radius: 10px;
+        
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    color: #004000;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    cursor: pointer;
+    background-color: #ff0080;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+ 
+button:hover {
+    background-color: #400040;
+    transform: scale(1.05);
+}
+
+a {
+    text-decoration: none;
+    color: #400040;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0080ff;
+}
+	
